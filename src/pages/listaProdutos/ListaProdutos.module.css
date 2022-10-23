@@ -1,0 +1,31 @@
+.listaProdutos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formPesquisa{
+    max-width: 100%;
+    width: 50% ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.formPesquisa input{
+    margin-right: 10px;
+    width: 50%;
+}
+
+.nenhumProduto{
+    text-align: center;
+}
+
+.nenhumProduto p{
+    margin-bottom: 1.5em;
+}
+
+.nenhumProduto a{
+    padding: 10px 25px;
+}

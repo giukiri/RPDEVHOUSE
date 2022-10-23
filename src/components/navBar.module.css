@@ -1,0 +1,53 @@
+.navBar{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px -2px 10px 0px;
+    align-items: center;
+    padding: 0.5em 2em;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.brand span {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #6CA6CD;
+}
+
+.lista li {
+    margin-right: 0.5em;
+    
+}
+
+.lista a{
+    padding: 0.4em 0.6em ;
+    text-decoration: none;
+    color: #363636;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    transition: .45;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.lista a:active {
+    background-color: #778899;
+    color: white;
+
+}
+
+.lista a:hover{
+    color: steelblue;
+    background-color: #EEE9E9;
+    border-radius: 5px;
+   
+}
+
+;
+    
