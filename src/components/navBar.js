@@ -21,6 +21,11 @@ const NavBar = () => {
                         </NavLink>
                     </li>
                     <li>
+                        <NavLink to={'/Home'}>
+                        Mapa
+                        </NavLink>
+                    </li>
+                    <li>
                         <NavLink to={'/criarProduto'}>
                             Cadastrar Produto
                         </NavLink>

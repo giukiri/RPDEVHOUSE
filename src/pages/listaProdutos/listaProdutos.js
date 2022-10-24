@@ -21,12 +21,12 @@ const ListaProdutos = () => {
     }
     return(
         <div className={styles.listaProduto}>
-            <h1>Produtos </h1>
+            <h1 className={styles.titulo}>Produtos</h1>
             <form onSubmit={handleSubmit} className={styles.formPesquisa}>
                 <input type='text' placeholder='busque por um produto' onChange={(e) => setQuery(e.target.value)}/>
-                <button className='btn_search'>Pesquisar</button>
+                <button className={styles.btn_search}>Pesquisar</button>
             </form>
-            <div>
+            <div className={styles.containerProduto}>
                 {loading && <p>CARREGANDO</p>}
                 {FichaProduto && FichaProduto.map((produto)=> <Produto produto={produto}/>)}
                 {FichaProduto && FichaProduto.length === 0 &&(

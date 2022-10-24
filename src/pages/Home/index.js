@@ -3,6 +3,7 @@ import styles from '../Home/Home.module.css'
 import NavBar from "../../components/navBar";
 import Footer from "../../components/Footer";
 import '../CSS/index.css'
+import MapView from "../mapa/mapa";
 
 const HomePage = () => {
 
@@ -17,7 +18,7 @@ const HomePage = () => {
 
             </div>
 
-              <h1>HomePage</h1>
+             <MapView/>
 
             <div>
                 <Footer/>

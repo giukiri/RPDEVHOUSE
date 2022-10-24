@@ -79,6 +79,7 @@ const Cadastro = () => {
             setValue('estado', data.estado);
             setFocus('numero');
         });
+    }
    
 
     return(
@@ -266,6 +267,6 @@ const Cadastro = () => {
         </div>
     )
 }
-}
+
 
 export default Cadastro;
